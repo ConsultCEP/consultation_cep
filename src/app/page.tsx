@@ -16,7 +16,7 @@ export default function Home() {
       <button onClick={() => setTheme(!theme)} className="absolute top-5 right-5">
         {theme? <GoSun /> : <GoMoon />}
       </button>
-      <div className={`max-w-md w-full rounded-lg p-6 shadow-lg bg-white
+      <div className={`max-w-md w-full rounded-lg p-6 shadow-lg
         ${theme? 'bg-[#2C2C2E] text-white' : 'bg-white'}`}>
 
         <h1 className="text-2xl font-bold mb-4">
